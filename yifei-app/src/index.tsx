@@ -1,13 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
+import "./index.less";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserHistory } from "history";
 import { Provider } from "react-redux";
 import { ConnectedRouter } from "connected-react-router";
 import App from "./App";
 import store from "./stores";
-import "antd/dist/antd.css";
 import { ConfigProvider } from "antd";
 import zhCN from "antd/lib/locale/zh_CN";
 

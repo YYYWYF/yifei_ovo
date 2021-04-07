@@ -1,7 +1,7 @@
 import { Route, Switch } from "react-router-dom";
 import React, { Suspense } from "react";
 import loading from "./components/Loading/Loading";
-import { Header } from "./components/Header/Header";
+import Header from "./components/Header/Header";
 
 const App = () => {
   return (

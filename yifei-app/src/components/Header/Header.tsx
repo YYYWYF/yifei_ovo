@@ -1,5 +1,7 @@
 import { Button } from "antd";
-
-export const Header = () => {
-  return <Button>我是按钮</Button>;
+import styles from "./Header.module.less";
+const Header = () => {
+  return <Button className={styles.button}>我是按钮</Button>;
 };
+
+export default Header;
